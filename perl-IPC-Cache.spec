@@ -1,29 +1,15 @@
 #
 # Conditional build:
 # _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	IPC
 %define		pnam	Cache
-Summary:	IPC::Cache Perl module
-Summary(cs):	Modul IPC::Cache pro Perl
-Summary(da):	Perlmodul IPC::Cache
-Summary(de):	IPC::Cache Perl Modul
-Summary(es):	Módulo de Perl IPC::Cache
-Summary(fr):	Module Perl IPC::Cache
-Summary(it):	Modulo di Perl IPC::Cache
-Summary(ja):	IPC::Cache Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	IPC::Cache ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul IPC::Cache
-Summary(pl):	Modu³ Perla IPC::Cache
-Summary(pt):	Módulo de Perl IPC::Cache
-Summary(pt_BR):	Módulo Perl IPC::Cache
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl IPC::Cache
-Summary(sv):	IPC::Cache Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl IPC::Cache
-Summary(zh_CN):	IPC::Cache Perl Ä£¿é
+Summary:	IPC::Cache - persisted data across process boundaries
+#Summary(pl):	IPC::Cache
 Name:		perl-IPC-Cache
 Version:	0.02
-Release:	1
+Release:	2
 License:	GPL v1+
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
