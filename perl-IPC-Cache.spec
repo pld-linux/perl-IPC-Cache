@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	IPC
-%define	pnam	Cache
+%define		pdir	IPC
+%define		pnam	Cache
 Summary:	IPC::Cache - persisted data across process boundaries
 Summary(pl):	IPC::Cache - zachowywanie danych miêdzy procesami
 Name:		perl-IPC-Cache
