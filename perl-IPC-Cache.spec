@@ -9,7 +9,7 @@ Summary:	IPC::Cache - persisted data across process boundaries
 Summary(pl):	IPC::Cache - zachowywanie danych miêdzy procesami
 Name:		perl-IPC-Cache
 Version:	0.02
-Release:	5
+Release:	6
 License:	GPL v1+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -17,7 +17,6 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 BuildRequires:	perl-devel >= 1:5.8.0
 %if %{with tests}
 BuildRequires:	perl(IPC::ShareLite) >= 0.06
-BuildRequires:	perl(Storable) >= 0.607
 %endif
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
