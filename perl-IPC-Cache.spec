@@ -13,6 +13,7 @@ Release:	4
 License:	GPL v1+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	f730e095f98e44c7b5a9cb5647e6db02
 BuildRequires:	perl-devel >= 5.005
 %if %{?_without_tests:0}%{!?_without_tests:1}
 BuildRequires:	perl(IPC::ShareLite) >= 0.06
