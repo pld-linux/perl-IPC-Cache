@@ -18,7 +18,7 @@ BuildRequires:	perl >= 5.005
 BuildRequires:	perl(IPC::ShareLite) >= 0.06
 BuildRequires:	perl(Storable) >= 0.607
 %endif
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
