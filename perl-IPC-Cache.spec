@@ -6,7 +6,7 @@
 %define		pdir	IPC
 %define		pnam	Cache
 Summary:	IPC::Cache - persisted data across process boundaries
-Summary(pl):	IPC::Cache - zachowywanie danych miêdzy procesami
+Summary(pl.UTF-8):   IPC::Cache - zachowywanie danych miÄ™dzy procesami
 Name:		perl-IPC-Cache
 Version:	0.02
 Release:	6
@@ -26,9 +26,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 IPC::Cache Perl module implements an object store where data is
 persisted across processes.
 
-%description -l pl
-Modu³ Perla IPC::Cache implementuje pamiêæ podmiotow±, zapewniaj±c±
-niezale¿n± od procesów trwa³o¶æ danych.
+%description -l pl.UTF-8
+ModuÅ‚ Perla IPC::Cache implementuje pamiÄ™Ä‡ podmiotowÄ…, zapewniajÄ…cÄ…
+niezaleÅ¼nÄ… od procesÃ³w trwaÅ‚oÅ›Ä‡ danych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
