@@ -4,7 +4,6 @@
 
 %define		pdir	IPC
 %define		pnam	Cache
-%include	/usr/lib/rpm/macros.perl
 Summary:	IPC::Cache - persisted data across process boundaries
 Summary(pl.UTF-8):	IPC::Cache - zachowywanie danych między procesami
 Name:		perl-IPC-Cache
